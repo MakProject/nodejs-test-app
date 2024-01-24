@@ -3,7 +3,7 @@
 docker login -u $DOCKER_USER -p $DOCKER_PASS
 
 #building the image:
-docker build --network host -t nodejs:web .
+docker build -t nodejs:web .
 docker images
 
 #stopping the already running container:
