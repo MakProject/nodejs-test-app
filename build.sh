@@ -7,5 +7,5 @@ docker build -t nodejs:web .
 docker images
 
 #stopping the already running container:
-docker stop nodejs
-docker rm nodejs
+#docker stop nodejs
+#docker rm nodejs
